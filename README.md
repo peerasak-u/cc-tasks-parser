@@ -394,8 +394,8 @@ Contributions are welcome! Please follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/peerasak-u/cc-tasks.git
-cd cc-tasks
+git clone https://github.com/peerasak-u/cc-tasks-parser.git
+cd cc-tasks-parser
 
 # Install dependencies
 npm install

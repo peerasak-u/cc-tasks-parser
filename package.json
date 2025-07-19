@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peerasak-u/cc-tasks.git"
+    "url": "https://github.com/peerasak-u/cc-tasks-parser.git"
   },
-  "homepage": "https://github.com/peerasak-u/cc-tasks#readme",
+  "homepage": "https://github.com/peerasak-u/cc-tasks-parser#readme",
   "files": [
     "index.js",
     "src/",
