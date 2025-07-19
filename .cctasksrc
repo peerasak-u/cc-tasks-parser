@@ -1,0 +1,11 @@
+{
+  "taskFile": "tasks.md",
+  "validation": {
+    "strict": false,
+    "requireValidation": true
+  },
+  "export": {
+    "defaultFormat": "json",
+    "htmlTemplate": "default"
+  }
+}

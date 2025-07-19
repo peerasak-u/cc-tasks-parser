@@ -1,0 +1,59 @@
+{
+  "name": "cc-tasks",
+  "version": "1.0.0",
+  "description": "A powerful command-line task management tool that uses Markdown files as a database",
+  "main": "index.js",
+  "bin": {
+    "cc-tasks": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "task-management",
+    "cli",
+    "markdown",
+    "project-management",
+    "productivity",
+    "developer-tools"
+  ],
+  "author": "Peerasak Unsakon",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "marked": "^9.1.6",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.2.0",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peerasak-u/cc-tasks.git"
+  },
+  "homepage": "https://github.com/peerasak-u/cc-tasks#readme",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
